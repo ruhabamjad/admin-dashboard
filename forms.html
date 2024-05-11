@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./fonts/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo"><a href="#"><img src="./images/logo.png" alt=""></a></div>
+        <nav class="nav">
+            <ul>
+                <li><a href="./index.html"><i class="fa fa-chart-pie"></i> Dashboard</a></li>
+                <li><a href="./tables.html"><i class="fa fa-th-large"></i> Tables</a></li>
+                <li><a href="./forms.html"><i class="fa fa-th-large"></i> Forms</a></li>
+                <li><a href="#"><i class="fa fa-th-large"></i> UI Elements</a></li>
+                <li><a href="#"><i class="fa fa-th-large"></i> Cards</a></li>
+                <li><a href="#"><i class="fa fa-th-large"></i> Modals</a></li>
+                <li><a href="./blank.html"><i class="fa fa-th-large"></i> Blank</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Header -->
+
+    <!-- Main -->
+    <main class="main">
+
+        <!-- Main Nav -->
+        <div class="main-nav">
+            <span class="collapse"><i class="fa fa-bars"></i></span>
+            <form class="search-box" action="#">
+                <i class="fa fa-search"></i>
+                <input type="text" placeholder="Search...">
+            </form>
+            <div class="user-profile">
+                <img src="./images/user-2.png" alt="">
+            </div>
+        </div>
+        <!-- Main Nav -->
+
+        <!-- Main Dashboard -->
+        <div class="dashboard">
+
+            <h1>Add Post</h1>
+
+            <form action="#" class="form my-1">
+                <div class="form-group">
+                    <label for="title">Title</label>
+                    <input type="text" placeholder="Title" id="title">
+                </div>
+                <div class="form-group">
+                    <label for="url">URL</label>
+                    <input type="text" placeholder="URL" id="url">
+                </div>
+                <div class="form-group">
+                    <label for="content">Content</label>
+                    <textarea id="content" placeholder="Content"></textarea>
+                </div>
+                <button>Post</button>
+            </form>
+
+            <h1>Signup Form</h1>
+
+            <form action="#" class="form my-1">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Name" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Password" id="password">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="number" placeholder="Phone" id="phone">
+                </div>
+                <button>Signup</button>
+            </form>
+
+        </div>
+        <!-- Main Dashboard -->
+
+    </main>
+    <!-- Main -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
